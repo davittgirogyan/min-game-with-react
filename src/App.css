@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  height: 95vh;
+}
+
+.map {
+  width: 500px;
+  height: 500px;
+  background-color: bisque;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.kut{
+  width: 20px;
+  height: 20px;
+  background: teal;
+  border-radius: 50%;
+  position: absolute;
+  border: yellowgreen 3px solid;
+  /* top: 150px; */
+}
+.pater1{
+  /* width: 500px; */
+  /* height: 500px; */
+  background: thistle;
+  position: absolute;
+}
