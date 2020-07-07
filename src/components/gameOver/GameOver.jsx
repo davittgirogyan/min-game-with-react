@@ -13,12 +13,6 @@ const GameOver = ({setGameOver,setVerev,setKox,
         if(data){
             data = JSON.parse(data);
             data.push({name,score:allhashiv})
-            // if(data.length>4){
-            //     data = data.sort(function(a, b) {
-            //         return b-a;
-            //       });
-            // }
-            console.log(data);
             localStorage.setItem('scores', JSON.stringify(data));
         }else{
             localStorage.setItem('scores', JSON.stringify([{name,score:allhashiv}]));
